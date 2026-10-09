@@ -26,7 +26,7 @@ public class StackusingQueue {
             q1.add(q1.remove());
         }
         int a = q1.peek();
-        q1.add(a);//            q1.add(q1.remove());
+        q1.add(a);
         return a;
     }
     boolean isEmpty(){
